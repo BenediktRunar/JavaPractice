@@ -4,7 +4,10 @@
   "description": "Æfing í javascript og Git",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+	"watch": "jest --watchAll",
+	"clean": "rm -rf node_modules",
+	"start": "node app.js"
   },
   "repository": {
     "type": "git",
