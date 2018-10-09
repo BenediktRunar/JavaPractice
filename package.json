@@ -1,0 +1,22 @@
+{
+  "name": "javapractice",
+  "version": "1.0.0",
+  "description": "Æfing í javascript og Git",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenediktRunar/JavaPractice.git"
+  },
+  "author": "Benedikt Rúnar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenediktRunar/JavaPractice/issues"
+  },
+  "homepage": "https://github.com/BenediktRunar/JavaPractice#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
