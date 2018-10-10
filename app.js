@@ -1,3 +1,12 @@
-const greeting = require('./src/greeting');
+const app = require("./src/api");
+const PORT = process.env.PORT || 3000;
 
-console.log(greeting('bro'));
+app.listen(PORT, () => {
+  console.log("Server running on port " + PORT);
+});
+
+
+
+//const greeting = require('./src/greeting');
+
+//console.log(greeting('bro'));

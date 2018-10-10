@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-	"watch": "jest --watchAll",
-	"clean": "rm -rf node_modules",
-	"start": "node app.js"
+    "watch": "jest --watchAll",
+    "clean": "rm -rf node_modules",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/BenediktRunar/JavaPractice#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
