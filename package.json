@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/BenediktRunar/JavaPractice#readme",
   "devDependencies": {
+    "ajv": "^6.5.4",
     "jest": "^23.6.0",
-    "supertest": "^3.3.0"
+    "supertest": "^3.3.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "express": "^4.16.3"
