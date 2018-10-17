@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const greeting = require("./greeting");
+const greeting = require("../logic/greeting");
 
 app.get("/greeting/:name", (req, res) => {
 	res.status(200);
