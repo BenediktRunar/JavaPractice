@@ -1,5 +1,5 @@
 const app = require("./src/server/api");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
@@ -7,6 +7,8 @@ app.listen(PORT, () => {
 
 
 
-//const greeting = require('./src/greeting');
+//const router = express.Router;
+//router.get("/greeting/:name", ??? );
 
-//console.log(greeting('bro'));
+//const api = require('api.js');
+//app.use("/api", api);

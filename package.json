@@ -8,7 +8,8 @@
     "watch": "jest --watchAll",
     "clean": "rm -rf node_modules",
     "start": "node app.js",
-	"build": "webpack"
+    "build": "webpack",
+	"devServer": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,13 @@
   "homepage": "https://github.com/BenediktRunar/JavaPractice#readme",
   "devDependencies": {
     "ajv": "^6.5.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "supertest": "^3.3.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "express": "^4.16.3",
