@@ -11,3 +11,9 @@ app.get("/greeting/:name", (req, res) => {
 
 
 module.exports = app;
+
+//const router = express.Router;
+//router.get("/greeting/:name", ??? );
+
+//const api = require('api.js');
+//app.use("/api", api);
